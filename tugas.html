@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nepenthe.stylee</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🛍️ Nepenthe.stylee</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#products">Daftar Barang</a></li>
+                <li><a href="#contact">Kontak</a></li>
+                <li><a href="#order">Order</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>Tentang Kami</h2>
+        <p>Nepenthe.stylee adalah toko fashion yang menyediakan berbagai artikel anak muda yang trendy paling terbaik dari yang terbaik.</p>
+    </section>
+
+    <section id="products">
+        <h2>Daftar Barang</h2>
+        <div class="product-list">
+            <div class="product">
+                <img src="img/baju.jpg" alt="Baju">
+                <h3>Baju</h3>
+                <p>Rp 120.000</p>
+            </div>
+            <div class="product">
+                <img src="img/celana.jpg" alt="Celana">
+                <h3>Celana</h3>
+                <p>Rp 180.000</p>
+            </div>
+            <div class="product">
+                <img src="img/sweater.jpg" alt="Sweater">
+                <h3>Sweater</h3>
+                <p>Rp 200.000</p>
+            </div>
+            <div class="product">
+                <img src="img/hoodie.jpg" alt="Hoodie">
+                <h3>Hoodie</h3>
+                <p>Rp 250.000</p>
+            </div>
+            <div class="product">
+                <img src="img/kaos kaki.jpg" alt="Kaos Kaki">
+                <h3>Kaos Kaki</h3>
+                <p>Rp 25.000</p>
+            </div>
+            <div class="product">
+                <img src="img/sepatu.jpg" alt="Sepatu">
+                <h3>Sepatu</h3>
+                <p>Rp 400.000</p>
+            </div>
+            <div class="product">
+                <img src="img/jaket.jpg"Jaket">
+                <h3>Jaket</h3>
+                <p>Rp 800.000</p>
+        </div>
+    </section>
+
+    <section id="payment">
+        <h2>Metode Pembayaran</h2>
+        <ul>
+            <li>Transfer Bank (BCA, BSI, Mandiri)</li>
+            <li>OVO / GoPay / Dana / Shoopepay</li>
+            <li>COD (Cash on Delivery)</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Kontak</h2>
+        <p>📞 Nomor HP: 082213440469</p>
+        <a href="https://www.instagram.com/nepenthe.stylee?igsh=MTAwZjlqajR2c2NscA==" target="_blank" class="btn-instagram">
+            📸 Kunjungi Instagram Kami
+        </a>
+    </section>
+
+    <!-- ✅ Form Order -->
+    <section id="order">
+        <h2>Form Pemesanan</h2>
+        <form>
+            <label for="nama">Nama Lengkap:</label><br>
+            <input type="text" id="nama" name="nama" placeholder="Masukkan nama kamu"><br><br>
+
+            <label for="produk">Pilih Produk:</label><br>
+            <select id="produk" name="produk">
+                <option value="baju">Baju</option>
+                <option value="celana">Celana</option>
+                <option value="sweater">Sweater</option>
+                <option value="hoodie">Hoodie</option>
+                <option value="kaoskaki">Kaos Kaki</option>
+                <option value="jaket">Jaket</option>
+                <option value="sepatu">Sepatu</option>
+            </select><br><br>
+
+            <label for="jumlah">Jumlah:</label><br>
+            <input type="number" id="jumlah" name="jumlah" min="1" value="1"><br><br>
+
+            <label for="alamat">Alamat Pengiriman:</label><br>
+            <textarea id="alamat" name="alamat" rows="4" placeholder="Masukkan alamat lengkap"></textarea><br><br>
+
+            <button type="submit" class="btn-order">Kirim Pesanan</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Nepenthe.stylee | Fashion for Everyone</p>
+    </footer>
+</body>
+</html>
